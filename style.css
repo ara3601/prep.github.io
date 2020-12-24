@@ -1,0 +1,212 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: coral;
+}
+.navbar{
+    
+    background-color: rgb(105, 102, 102, 0.5);
+border: 2px solid black;
+    border-radius: 20px;
+    
+
+}
+.navlist{
+    color: black;
+     height: 10vh;
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+    list-style: none;
+
+}
+.navlist li a{
+    text-decoration: none;
+    background-color: darkolivegreen;
+    color: rgb(0, 0, 0);
+    padding: 13px 25px;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+.navlist li a:hover{
+    background-color: purple;
+color: white;
+}
+.navbar .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+
+  .main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+.c2{
+    justify-content: center;
+    text-align: center;
+    height: 60vh;
+    background: url(./images/aa.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+
+}
+
+.c2 p{
+    font-size: 90px;
+    color: crimson;
+    justify-content: center;
+    text-align: center;
+    font-style: oblique;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px blanchedalmond;
+}
+
+
+.c4{
+    border: 2px solid black;
+    flex: 2 2;
+    display: flex;
+    background: url(./images/bg.jpg)no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+  
+}
+
+.abloc{
+    color: white;
+    flex: 2 2;
+    text-align: center;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: x-large;
+    border-radius: 5px;
+    border: 2px solid darkblue;
+    padding: 10px;
+    margin: 10px 16px;
+    flex-basis: 450px;
+    height: 50vh;
+    background-color: rgb(60 54 65 / 50%);
+
+} 
+
+.abloc section a:hover{
+    background-color: white;
+color: black;
+}
+.abloc section a{
+    margin: 33px 19px;
+    padding: 5px 17px;
+    font-size: 17px;
+    color: white;
+    background-color: #623955;
+    text-decoration: none;
+    border-radius: 59px;
+}
+.c5{
+border: 2px solid black;
+background: url(./images/ta.jpg)no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+    DISPLAY: inline-grid;
+    height: 60vh;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.ff{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  
+}
+.ff a{
+    padding: 4px 22px;
+    margin: 9px 9px;
+    border: solid;
+    border-radius: 16px;
+    text-decoration: none;
+}
+.s1{
+    font-size: xxx-large;
+    margin: 11px;
+    
+}
+
+.s2{
+    display:inline-grid ;
+    
+    font-size: large;
+}
+.c5 h2{
+    color: greenyellow;
+margin: 5px 5px;
+}
+.c5 h1{
+    text-shadow: 1px 1px 3px black;
+    color:coral;
+}
+.s2 input{
+    padding: 8px 9px;
+}
+.s2 .btn{
+    margin: 5px 5px;
+    padding: 10px 23px;
+    font-size: x-large;
+    background-color: #dd4b39;
+    color: #000000;
+    border: solid;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.icon h2{
+    font-size: xx-large;
+    color: burlywood;
+    
+}
+.facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
